@@ -11,7 +11,7 @@ public class Ex06 {
 		
 		System.out.println("이름을 입력해주세요");
 		System.out.print("이름:");
-		String name = sc.nextLine();
+		String name = sc.nextLine(); 
 		
 		System.out.println("나이를 입력해주세요");
 		System.out.print("나이:");
