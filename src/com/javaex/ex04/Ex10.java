@@ -14,18 +14,19 @@ public class Ex10 {
 			System.out.println("숫자를 입력하세요");
 			i = sc.nextInt();
 			
-			if(i == 0) {
-				System.out.println("종료");
+			if(i==0) {
 				break;
+			}
+			
+			if(i%3==0) {
+				System.out.println("3의 배수입니다\n");
 			}else {
-				if(i%3==0) {
-					System.out.println("3의 배수입니다\n");
-				}else {
-					System.out.println("3의 배수가 아닙니다\n");
-				}
+				System.out.println("3의 배수가 아닙니다\n");
 			}
 			
 		}
+		
+		System.out.println("종료");
 		
 		sc.close();
 	}
